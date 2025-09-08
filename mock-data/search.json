@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "title": "איך להגיש בקשה",
+      "content": "מדריך מלא להגשת בקשות במערכת",
+      "url": "/guide/submit-request",
+      "type": "guide"
+    },
+    {
+      "title": "שאלות נפוצות",
+      "content": "תשובות לשאלות הנפוצות ביותר",
+      "url": "/faq",
+      "type": "faq"
+    }
+  ]
+}

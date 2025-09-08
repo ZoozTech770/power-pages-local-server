@@ -1,0 +1,33 @@
+{
+  "endpoint": "/api/example",
+  "method": "GET",
+  "description": "Example mock endpoint for testing",
+  "request": {
+    "url": "/api/example",
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "data": null
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "message": "Hello from mock API!",
+      "timestamp": "2025-07-23T09:26:22Z",
+      "data": [
+        {
+          "id": 1,
+          "name": "Test Item 1",
+          "active": true
+        },
+        {
+          "id": 2,
+          "name": "Test Item 2",
+          "active": false
+        }
+      ]
+    }
+  },
+  "createdAt": "2025-07-23T09:26:22Z"
+}

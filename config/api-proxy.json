@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "baseUrl": "https://oref-ol-dev.powerappsportals.com/",
+  "note": "OAuth2 authentication is now used - this legacy config is kept for reference",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Prefer": "odata.include-annotations=*"
+  },
+  "useAuthorizationHeader": false,
+  "useOAuth2": true
+}

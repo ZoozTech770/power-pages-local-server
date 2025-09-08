@@ -1,0 +1,36 @@
+{
+  "currentUser": {
+    "id": "user-123",
+    "fullname": "אריה כהן",
+    "email": "arye.cohen@example.com",
+    "roles": [
+      "לקוח- הגשת בקשות",
+      "Administrators"
+    ],
+    "isAuthenticated": true,
+    "profile": {
+      "firstName": "אריה",
+      "lastName": "כהן",
+      "phone": "050-1234567",
+      "address": "תל אביב, ישראל"
+    }
+  },
+  "allUsers": [
+    {
+      "id": "user-123",
+      "fullname": "אריה כהן",
+      "email": "arye.cohen@example.com",
+      "roles": [
+        "לקוח- הגשת בקשות"
+      ]
+    },
+    {
+      "id": "user-456",
+      "fullname": "שרה לוי",
+      "email": "sarah.levi@example.com",
+      "roles": [
+        "Administrators"
+      ]
+    }
+  ]
+}

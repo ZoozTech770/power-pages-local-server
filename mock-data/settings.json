@@ -1,0 +1,14 @@
+{
+  "site": {
+    "name": "פיקוד העורף",
+    "description": "מערכת הגשת בקשות",
+    "language": "he-IL",
+    "timezone": "Asia/Jerusalem"
+  },
+  "features": {
+    "searchEnabled": true,
+    "profileEnabled": true,
+    "messagesEnabled": true,
+    "formsEnabled": true
+  }
+}

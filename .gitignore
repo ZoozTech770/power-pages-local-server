@@ -1,0 +1,16 @@
+# Power Pages Local Server
+.env
+*.log
+node_modules/
+.DS_Store
+.vscode/
+*.tmp
+*.cache
+
+# Authentication files (keep secure!)
+auth.json
+cookies.txt
+config/token-cache.json
+config/auth-config.json
+*.token
+*.cache.json

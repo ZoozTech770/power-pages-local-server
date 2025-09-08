@@ -1,0 +1,23 @@
+{
+  "watch": [
+    "server.js",
+    "src/",
+    "package.json"
+  ],
+  "ignore": [
+    "config/task-manager.json",
+    "config/api-proxy.json",
+    "node_modules/",
+    "logs/",
+    "compiled/",
+    ".env",
+    "*.log",
+    "*.tmp",
+    "*.cache",
+    "mock-data/",
+    "coverage/",
+    "dist/"
+  ],
+  "ext": "js,json,mjs,cjs",
+  "delay": "500"
+}

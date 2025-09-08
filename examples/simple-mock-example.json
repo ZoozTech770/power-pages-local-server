@@ -1,0 +1,9 @@
+{
+  "endpoint": "/api/simple",
+  "method": "GET",
+  "response": {
+    "data": {
+      "message": "This is a simple mock response"
+    }
+  }
+}

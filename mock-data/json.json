@@ -1,0 +1,36 @@
+{
+  "endpoint": "/json",
+  "method": "GET",
+  "description": "Mock for GET /json",
+  "request": {
+    "url": "https://httpbin.org/json",
+    "method": "GET",
+    "headers": {},
+    "data": null
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "slideshow": {
+        "author": "Yours Truly",
+        "date": "date of publication",
+        "slides": [
+          {
+            "title": "Wake up to WonderWidgets!",
+            "type": "all"
+          },
+          {
+            "items": [
+              "Why <em>WonderWidgets</em> are great",
+              "Who <em>buys</em> WonderWidgets"
+            ],
+            "title": "Overview",
+            "type": "all"
+          }
+        ],
+        "title": "Sample Slide Show"
+      }
+    }
+  },
+  "createdAt": "2025-07-23T09:08:21.420Z"
+}

@@ -1,0 +1,38 @@
+{
+  "server": {
+    "port": 3000,
+    "hotReload": true
+  },
+  "powerPages": {
+    "baseUrl": "https://oref-ol-dev.powerappsportals.com/",
+    "projectPath": "/Users/itzharmordechai/Documents/zooztech/oref-ol-dev/oref-ol---oref-ol-dev",
+    "languages": [
+      "en-US",
+      "he-IL"
+    ]
+  },
+  "mockUser": {
+    "id": "80082142-f387-f011-b4cc-7c1e52727922",
+    "name": "Test User"
+  },
+  "proxy": {
+    "enabled": true,
+    "timeout": 30000,
+    "retries": 3
+  },
+  "liquidExcludes": [
+    "react-bootstrap.min.js",
+    "react-dom.development.js",
+    "react-redux.js",
+    "react.development.js",
+    "redux-toolkit.umd.js",
+    "redux.js",
+    "reduxauthslice.js",
+    "reduxfiltersslice.js",
+    "reduxregistrationslice.js",
+    "reduxrequestdetailsslice.js",
+    "reduxrequestformslice.js",
+    "reduxrequestsslice.js",
+    "reduxstore.js"
+  ]
+}

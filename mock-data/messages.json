@@ -1,0 +1,21 @@
+{
+  "messages": [
+    {
+      "id": "msg-001",
+      "title": "בקשתך אושרה",
+      "content": "בקשתך למספר 123456 אושרה וזמינה לצפייה",
+      "timestamp": "2025-07-15T10:30:00Z",
+      "read": false,
+      "type": "approval"
+    },
+    {
+      "id": "msg-002",
+      "title": "עדכון מערכת",
+      "content": "המערכת תעבור תחזוקה ביום חמישי בין השעות 22:00-24:00",
+      "timestamp": "2025-07-14T15:45:00Z",
+      "read": true,
+      "type": "system"
+    }
+  ],
+  "unreadCount": 1
+}

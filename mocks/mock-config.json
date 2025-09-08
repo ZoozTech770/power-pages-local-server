@@ -1,0 +1,101 @@
+{
+  "mocks": [
+    {
+      "id": "4978d8d43fcfbef7",
+      "name": "get incidents",
+      "description": "",
+      "enabled": true,
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "endpoint": "/incidents",
+        "url": "https://oref-ol-dev.powerappsportals.com/_api/incidents?$select=incidentid,ticketnumber,_orl_incident_typeid_value,orl_is_user_has_unread_message,statuscode,_orl_statusid_value,orl_p_contact_profile,orl_is_user_has_unread_message,orl_d_duedate,orl_d_last_status_modified",
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Language": "en-US,en;q=0.9,he;q=0.8",
+          "Connection": "keep-alive",
+          "Content-Type": "application/json",
+          "Prefer": "odata.include-annotations=*",
+          "Referer": "https://oref-ol-dev.powerappsportals.com/",
+          "Request-Id": "|4a05a113c34d47e7829f26298d1e010b.99fce80ba3074ed4",
+          "Sec-Fetch-Dest": "empty",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-origin",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0",
+          "X-Requested-With": "XMLHttpRequest",
+          "__RequestVerificationToken": "cNIArfx0VhKU4E1oC2CT53gk9s6d3Y_NNHc5iHhwSj9M3OipjGbo_9HiGU3ZycQxiBud5GO7h4XOIORJc1cbMZQMuPL7ZKW13dxeOXcwvtU1",
+          "sec-ch-ua-mobile": "?0",
+          "traceparent": "00-4a05a113c34d47e7829f26298d1e010b-99fce80ba3074ed4-01",
+          "sec-ch-ua": "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Microsoft Edge\";v=\"140\"",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "Cookie": "Dynamics365PortalAnalytics=MdsDdaIKk_qVLZFTaviXOAtdQ5RsxY9PoXjnQIxDSwsv_SBykkMFeZ5Xot--B0B7CVM5lT53p_prDo0anS66Sr2mQ6RozrV37D4prZrsf3d5vB4KoeBaJL-xjvyajwkUxxkDVZWdoy1AJihf0kYU5g2; ARRAffinity=bfc182fe46a87aff3e3143aeb2efacc573fc1df446250053af04cb513db66771; ARRAffinitySameSite=bfc182fe46a87aff3e3143aeb2efacc573fc1df446250053af04cb513db66771; timezoneoffset=-180; isDSTSupport=true; isDSTObserved=true; ContextLanguageCode=en-US; timeZoneCode=130; __RequestVerificationToken=k7Rv8H4isbUGn-HRrv3HTfIGIno7myobokxxkj1MMF-jsx7jBVO6swsdHk7D3fLZ1cl8rjq0G34guP3K2Bg0WAoTN5XsBKL-X2kQA5qj6yE1"
+        },
+        "body": null,
+        "queryParams": {}
+      },
+      "response": {
+        "status": 200,
+        "data": {
+          "@odata.context": "https://oref-ol-dev.powerappsportals.com/_api/$metadata#incidents(incidentid,ticketnumber,_orl_incident_typeid_value,orl_is_user_has_unread_message,statuscode,_orl_statusid_value,orl_p_contact_profile,orl_d_duedate,orl_d_last_status_modified)",
+          "@Microsoft.Dynamics.CRM.totalrecordcount": -1,
+          "@Microsoft.Dynamics.CRM.totalrecordcountlimitexceeded": false,
+          "@Microsoft.Dynamics.CRM.globalmetadataversion": "18570456",
+          "value": [
+            {
+              "@odata.etag": "W/\"18572538\"",
+              "orl_d_last_status_modified@OData.Community.Display.V1.FormattedValue": "07/09/2025",
+              "orl_d_last_status_modified": "2025-09-07T00:00:00Z",
+              "_orl_incident_typeid_value@OData.Community.Display.V1.FormattedValue": "הצעה למוצר חדש",
+              "_orl_incident_typeid_value@Microsoft.Dynamics.CRM.associatednavigationproperty": "orl_incident_typeid",
+              "_orl_incident_typeid_value@Microsoft.Dynamics.CRM.lookuplogicalname": "orl_incident_type",
+              "_orl_incident_typeid_value": "ee2501e9-1c84-f011-b4cc-6045bdf67876",
+              "_orl_statusid_value@OData.Community.Display.V1.FormattedValue": "ממתין לקוח",
+              "_orl_statusid_value@Microsoft.Dynamics.CRM.associatednavigationproperty": "orl_statusid",
+              "_orl_statusid_value@Microsoft.Dynamics.CRM.lookuplogicalname": "orl_incident_status",
+              "_orl_statusid_value": "2a5f1069-4882-f011-b4cc-7c1e521181ef",
+              "orl_d_duedate@OData.Community.Display.V1.FormattedValue": "22/09/2025",
+              "orl_d_duedate": "2025-09-22T00:00:00Z",
+              "ticketnumber": "CAS-01002-S3Q6F8",
+              "incidentid": "6b359dbf-b527-49ab-a655-33b5910f14ae",
+              "orl_p_contact_profile@OData.Community.Display.V1.FormattedValue": "מתכנן",
+              "orl_p_contact_profile": 1,
+              "statuscode@OData.Community.Display.V1.FormattedValue": "מתבצע",
+              "statuscode": 1,
+              "orl_is_user_has_unread_message": "כן"
+            },
+            {
+              "@odata.etag": "W/\"17763189\"",
+              "orl_d_last_status_modified@OData.Community.Display.V1.FormattedValue": "29/08/2025",
+              "orl_d_last_status_modified": "2025-08-29T00:00:00Z",
+              "_orl_incident_typeid_value@OData.Community.Display.V1.FormattedValue": "בנייה חדשה",
+              "_orl_incident_typeid_value@Microsoft.Dynamics.CRM.associatednavigationproperty": "orl_incident_typeid",
+              "_orl_incident_typeid_value@Microsoft.Dynamics.CRM.lookuplogicalname": "orl_incident_type",
+              "_orl_incident_typeid_value": "86607cf1-1c84-f011-b4cc-7c1e521181ef",
+              "_orl_statusid_value@OData.Community.Display.V1.FormattedValue": "טיוטה",
+              "_orl_statusid_value@Microsoft.Dynamics.CRM.associatednavigationproperty": "orl_statusid",
+              "_orl_statusid_value@Microsoft.Dynamics.CRM.lookuplogicalname": "orl_incident_status",
+              "_orl_statusid_value": "a56dfc56-4882-f011-b4cc-7c1e521181ef",
+              "orl_d_duedate@OData.Community.Display.V1.FormattedValue": "30/08/2025",
+              "orl_d_duedate": "2025-08-30T00:00:00Z",
+              "ticketnumber": "CAS-01001-X1Q7Z9",
+              "incidentid": "fba4bbc3-1e84-f011-b4cc-6045bdf67876",
+              "orl_p_contact_profile": null,
+              "statuscode@OData.Community.Display.V1.FormattedValue": "מתבצע",
+              "statuscode": 1,
+              "orl_is_user_has_unread_message": null
+            }
+          ]
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "options": {
+        "delay": 0
+      },
+      "createdAt": "2025-09-08T10:41:24.977Z",
+      "lastUsed": "2025-09-08T14:58:45.164Z",
+      "hitCount": 12
+    }
+  ]
+}

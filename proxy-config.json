@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://oref-dev.powerappsportals.com",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+    "Cookie": "ARRAffinitySameSite=251919b2606474bf9895de9aaf2d6e7118c57cba2b23aae0e7ddc6e8415b4a13; ARRAffinity=251919b2606474bf9895de9aaf2d6e7118c57cba2b23aae0e7ddc6e8415b4a13; __RequestVerificationToken=X0xF7HQ6qH91q3QGlyj0tkzF0pbvQJFC7e4u7hpwvCGhiDCXe4KDHnggWEOzP7DONavBq3yLxMXjLMzzxCm_GDH4xFkjAEqJHs_OmgujPEE1; Dynamics365PortalAnalytics=04_qGe5GJV7t8YLI-JMla-hLOUj3NIzGCfCu54wgImo3hDuUfCwXYUouEFeLQrpcvny8f68Lpy8jviwpsoXRv9Mr89RYJz1QXlSWZ68qD-OU4mnlvTqgD2-9zP1_dZMaQnH57AGi-bAXseULwcyKMw2"
+  }
+}

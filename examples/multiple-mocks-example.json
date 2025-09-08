@@ -1,0 +1,64 @@
+[
+  {
+    "endpoint": "/api/users",
+    "method": "GET",
+    "description": "Get all users",
+    "response": {
+      "status": 200,
+      "data": {
+        "users": [
+          {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com"
+          },
+          {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane@example.com"
+          }
+        ],
+        "total": 2
+      }
+    }
+  },
+  {
+    "endpoint": "/api/users",
+    "method": "POST",
+    "description": "Create a new user",
+    "response": {
+      "status": 201,
+      "data": {
+        "id": 3,
+        "name": "New User",
+        "email": "newuser@example.com",
+        "message": "User created successfully"
+      }
+    }
+  },
+  {
+    "endpoint": "/api/products",
+    "method": "GET",
+    "description": "Get all products",
+    "response": {
+      "status": 200,
+      "data": {
+        "products": [
+          {
+            "id": 1,
+            "name": "Widget A",
+            "price": 29.99,
+            "inStock": true
+          },
+          {
+            "id": 2,
+            "name": "Widget B",
+            "price": 49.99,
+            "inStock": false
+          }
+        ],
+        "total": 2
+      }
+    }
+  }
+]

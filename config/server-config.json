@@ -1,0 +1,57 @@
+{
+  "powerPagesPath": "/Users/itzharmordechai/Documents/ZoozTech/pikud-oref-posions/oref---oref-dev",
+  "port": 3000,
+  "host": "localhost",
+  "mockApiEnabled": false,
+  "hotReload": true,
+  "defaultLanguage": "en-US",
+  "supportedLanguages": [
+    "en-US",
+    "he-IL"
+  ],
+  "debug": true,
+  "cacheEnabled": true,
+  "staticFilesPath": "web-files",
+  "templatesPath": "web-templates",
+  "pagesPath": "web-pages",
+  "snippetsPath": "content-snippets",
+  "pageTemplatesPath": "page-templates",
+  "security": {
+    "enableCors": true,
+    "enableHelmet": true,
+    "enableCompression": true
+  },
+  "logging": {
+    "level": "debug",
+    "file": "logs/server.log",
+    "console": true
+  },
+  "liquidEngine": {
+    "cache": true,
+    "strictFilters": false,
+    "strictVariables": false
+  },
+  "mockApi": {
+    "delay": 0,
+    "errorRate": 0,
+    "endpoints": {
+      "user": "/api/user",
+      "search": "/api/search",
+      "forms": "/api/forms",
+      "messages": "/api/messages"
+    }
+  },
+  "mockUser": {
+    "enabled": true,
+    "userData": {
+      "id": "d3dc8e0a-b733-f011-8c4d-7c1e5226723e",
+      "fullname": "אריה כהן",
+      "email": "arye.cohen@example.com",
+      "roles": "לקוח- הגשת בקשות,Administrators"
+    }
+  },
+  "apiProxy": {
+    "enabled": true,
+    "configFile": "api-proxy.json"
+  }
+}

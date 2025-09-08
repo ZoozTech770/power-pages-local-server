@@ -1,0 +1,22 @@
+{
+  "requests": [
+    {
+      "id": "req-001",
+      "number": "123456",
+      "title": "בקשה לאישור",
+      "status": "approved",
+      "submittedDate": "2025-07-10T09:00:00Z",
+      "lastUpdated": "2025-07-15T10:30:00Z",
+      "type": "approval"
+    },
+    {
+      "id": "req-002",
+      "number": "123457",
+      "title": "בקשה נוספת",
+      "status": "pending",
+      "submittedDate": "2025-07-14T14:20:00Z",
+      "lastUpdated": "2025-07-14T14:20:00Z",
+      "type": "general"
+    }
+  ]
+}
