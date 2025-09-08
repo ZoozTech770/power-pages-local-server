@@ -10,3 +10,11 @@ node_modules/
 # Authentication files (keep secure!)
 auth.json
 cookies.txt
+config/token-cache.json
+config/auth-config.json
+*.token
+*.cache.json
+
+# User-specific configuration files
+config/task-manager.json
+config/mock-config.json
